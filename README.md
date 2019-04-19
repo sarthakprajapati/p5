@@ -7,3 +7,4 @@ p5.js a JS client-side library for creating graphic and interactive experiences,
 4. <a href="https://www.geeksforgeeks.org/p5-js-arc-function/">Arc</a>
 5. <a href="https://www.geeksforgeeks.org/p5-js-bezier-function/">Bezier Function</a>
 6. <a href="https://contribute.geeksforgeeks.org/p5-js-constants-pi/">PI Constant</a>
+7. <a href="https://www.geeksforgeeks.org/p5-js-pow-function/">Power Function</a>
