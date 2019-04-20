@@ -37,9 +37,14 @@ background("grey");
 // set stroke weight
 
     strokeWeight(3);
+    textAlign(CENTER);
+    textSize(24);
+    text("Queue Implementation Using P5.js", windowWidth/2,20);
+    textAlign(LEFT);
+    textSize(14);
 
 // set stroke color
-    stroke('black');
+    stroke('green');
 line(10, 45, 90, 45);
 rect(10, 30, 60, 30);
     noStroke();
@@ -50,15 +55,16 @@ for(var i = 0; i<=queue1['array'].length-1;i++){
     var p = 10;
     translate(70, 0);
     strokeWeight(3);
-    stroke('black');
+    stroke('green');
     line(10+p, 45, p+80, 45);
-    noStroke();
+
     rect(10+p, 30, 40+p, 30);
+    noStroke();
     text(queue1['array'][i], 40, 50);
     p +=10;
 }
 // set stroke color
-stroke('black');
+stroke('green');
 translate(70, 0);
 rect(10, 30, 60, 30);
 noStroke();
